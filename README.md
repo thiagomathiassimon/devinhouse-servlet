@@ -196,3 +196,19 @@ Apache -> Tomcat v10.0 Server -> Finish
 ```
 
 ![](./images/tomcat.png)
+
+Selecione a raiz do projeto e clique com o botão direito do mouse e escolha a opção
+
+```
+Debug As -> 1 Debug on Server 
+```
+
+Agora nossa aplicação vai estar rodando de modo debug dentro do Tomcat 
+
+![](./images/dentro-tomcat.png)
+
+Podemos acessá-la pela url : http://localhost:8080/devinhouse-servlet/hello
+
+![](./images/navegador.png)
+
+ 
