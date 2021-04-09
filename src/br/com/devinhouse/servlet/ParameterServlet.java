@@ -8,22 +8,19 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-public class HelloWord extends HttpServlet {
+public class ParameterServlet extends HttpServlet {
 
-	private static final long serialVersionUID = -840684704924889282L;
+	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
+	
+		String parametro = request.getParameter("parameter"); 
+		
 		PrintWriter out = response.getWriter();
-
-		// escreve o texto
-		out.println("<html>");
-		out.println("<body>");
-		out.println(" Hello word ");
-		out.println("</body>");
-		out.println("</html>");
+		out.append(parametro);
 	}
 
 }

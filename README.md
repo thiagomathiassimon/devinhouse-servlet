@@ -97,7 +97,7 @@ Podemos fazer o dowload da dependencia em clicando [aqui]( https://jar-download.
 
 ![](./images/download.png)
 
-Após o download basta extrair o conteudo do arquivo e adicionar o arquivo **jakarta.servlet-api-5.0.0-M2.jar** para dentro da pasta :
+Após o download basta extrair o conteudo do arquivo e adicionar o arquivo **jakarta.servlet-api-5.0.0.jar** para dentro da pasta :
 
 ```
 WebContent -> WEB-INF -> lib 
